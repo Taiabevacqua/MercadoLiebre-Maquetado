@@ -1,0 +1,22 @@
+.home__main img {
+    padding-top: 15px;
+}
+
+.home__main__section h2 {
+    font-size: 24px;
+}
+
+.home__main__section__article__price {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.home__main__section__article__OFF {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.home__main__section__article__description {
+    font-size: 16px;
+    margin-top: 5px;
+}

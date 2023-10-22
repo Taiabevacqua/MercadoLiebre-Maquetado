@@ -1,0 +1,46 @@
+.search-bar {
+    background-color: #ffffff;
+    display: block;
+    border: 1px solid #000000;
+    color: #666;
+    padding: 2px;
+    width: 13em;
+}
+
+.search-bar input {
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #666;
+    width: 14em;
+}
+
+.header__div__compra {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header__nav ul {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.header__nav ul li a {
+    text-decoration: none;
+    color: #03264c;
+}
+
+#loguin {
+    padding-bottom: 40px;
+}
+
+.burguer-menu {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    padding: 4px 10px;
+    background-color: #03264c;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 25px;
+}
