@@ -1,12 +1,19 @@
+header {
+    background-color: #EAC926;
+    padding-bottom: 10px;
+}
+.contenedor__header img{
+    padding-left: 20px;
+}
 .search-bar {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     display: block;
     border: 1px solid #000000;
     color: #666;
     padding: 2px;
     width: 13em;
+    margin-left: 20px;
 }
-
 .search-bar input {
     border: none;
     font-size: 14px;
@@ -14,33 +21,40 @@
     color: #666;
     width: 14em;
 }
-
 .header__div__compra {
     text-align: center;
     padding: 20px 0;
 }
-
 .header__nav ul {
     padding: 10px 0;
     margin: 0;
 }
-
 .header__nav ul li a {
     text-decoration: none;
-    color: #03264c;
+    color: #03264C;
 }
-
 #loguin {
     padding-bottom: 40px;
 }
-
-.burguer-menu {
+.burguer-menu a {
     display: block;
     margin: auto;
     font-size: 30px;
     padding: 4px 10px;
-    background-color: #03264c;
+    background-color: #1259C3;
     border-radius: 5px;
-    color: #ffffff;
+    color: #FFFFFF;
     width: 25px;
+}
+/*mobile*/
+@media (max-width:360px) {
+    .header__nav {
+        display: none;
+    }
+}
+/*tablet*/
+@media (min-width:361px) {
+    .burguer-menu {
+        display: none;
+    }
 }
