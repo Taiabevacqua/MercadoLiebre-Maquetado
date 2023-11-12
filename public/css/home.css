@@ -4,69 +4,103 @@
     margin: auto;
 }
 .home__main {
-    width: 90%;
+    width: 100%;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
-.home__main__section img {
-    padding-top: 0;
-    margin-left: 0;
+
+.home__main__section__article img {
+    border-bottom: 1px solid rgba(194, 188, 188, 0.442);
 }
-.home__main__section h2 {
+
+.home__main  h2 {
     font-size: 24px;
-    padding-bottom: 20px;
+    margin: 10px 0 10px;
 }
+
 .home__main__section__article {
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
 }
+
 .home__main__section__article__div {
     background-color: #FFFFFF;
-    border-top: 1px solid #EBEBEB;
-    padding: 10px 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 10vh;
+    padding-left: 5%;
+    position: relative;
 }
-.home__main__section article div i {
+
+.home__main__section__article__div i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
     color: #39B54A;
-    border: 1px solid green;
-    height:40px;
-    width:40px;
-    -moz-border-radius:30px;
-    -webkit-border-radius:30px;
-    border-radius:50px;
-    /*border-radius: 50%;
-    padding: 4%;*/
+    border: 1px solid #39B54A;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    text-align: center;
+    
 }
+
 .home__main__section__article__price {
     font-size: 18px;
-    margin-bottom: 5px;
+    width: 30%;
+    margin: 20px 0 5px;
 }
+
 .home__main__section__article__OFF {
     font-size: 16px;
-    margin: 5px 0;
+    margin: 20px 0 5px;
     color: #39B54A;
+    width: 70%;
 }
+
 .home__main__section__article__description {
     font-size: 16px;
-    margin-top: 5px;
+    margin: 5px 0;
 }
+
 /*mobile*/
 @media (max-width:360px) {
     .home__main__section__article__description {
         display: none;
     }
 }
+
 /*tablet*/
 @media (min-width:361px) {
+    .home__main__section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
     .home__main__section__article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }
-}
+
 /*desktop*/
 @media (min-width:769px) {
+
+    .home__main__section {
+        flex: 98%;
+    }
+
     .home__main__section__article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
 }

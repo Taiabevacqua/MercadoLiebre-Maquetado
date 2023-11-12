@@ -12,21 +12,19 @@
 <body>
     <header>
        <div class="contenedor__header">
-        <div>
+
             <img src="/image/logo-mercado-liebre.svg" alt="logo de Mercado Liebre" height='100' width='200'>
-        </div>
+        
         <div class="search-bar">
-            <input type="text" placeholder="Buscar productos, marcas">
-         </div>
-         <div>
-          <button>
-            <i class="fas fa-search"></i>
-          </button>
+            <input type="text" placeholder="Buscar productos, marcas"> <i class="fas fa-search"></i>
         </div>
         <div class="header__div__compra">
             <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito
         </div>
-        <nav class="header__nav">
+      </div>
+
+       <div class="header__section">
+        <nav class="header__section__nav">
             <ul>
                 <li><a href="/ofertas">Ofertas</a></li>
                 <li><a href="/tiendas-oficiales">Tiendas oficiales</a></li>
@@ -34,7 +32,7 @@
                 <li><a href="/ayuda">Ayuda</a></li>
             </ul>
         </nav>
-        <nav class="header__nav">
+        <nav class="header__section__nav">
             <ul id="loguin">
                 <li><a href="/crea-tu-cuenta">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
                 <li><a href="/ingresa">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
@@ -44,14 +42,15 @@
         <div class="burguer-menu">
           <a href=""><i class="fas fa-bars"></i></a>
         </div>
-       </div>
+      </div>
+
     </header>
     <div class="div__banner">
-      <img src="/image/img-home-banner.jpg" alt="Imagen de Home Banner" height='100' width='500'>
+      <img src="/image/img-home-banner.jpg" alt="Imagen de Home Banner">
     </div>
     <main class="home__main">
-        <section class="home__main__section">
-            <h2>Basado en tu última visita</h2>
+      <h2>Basado en tu última visita</h2>
+        <div class="home__main__section">
              <article class="home__main__section__article">
                 <img src="/image/img-cafetera-moulinex.jpg" alt="Imagen de cafetera" height='300' width='324'>
                 <div class="home__main__section__article__div">
@@ -88,9 +87,9 @@
                   <h4 class="home__main__section__article__description">SmartTV Samsung 43"</h4>
                 </div>
              </article>
-        </section>
-        <section class="home__main__section">
-            <h2>Sección de ofertas</h2>
+            </div>
+        <h2>Sección de ofertas</h2>
+        <div class="home__main__section">
              <article class="home__main__section__article">
                 <img src="/image/img-cafetera-moulinex.jpg" alt="Imagen de cafetera" height='300' width='324'>
                 <div class="home__main__section__article__div">
@@ -127,7 +126,7 @@
                   <h4 class="home__main__section__article__description">SmartTV Samsung 43"</h4>
                 </div>
              </article>
-        </section>
+            </div>
     </main>
     <footer class="home__footer">
         <section class="footer__section">
