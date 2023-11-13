@@ -1,9 +1,35 @@
-* {
-    margin: 0px;
+*{
+    margin: 0;
     list-style: none;
 }
 
+
 body {
     font-family: 'Roboto';
-    background-color: #ebebeb;
+    background-color:#ebebeb;
+    width: 100%;
+}
+
+.box__end {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.box__end a {
+    text-decoration: none;
+}
+.box__card {
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color:#ebebeb;
+    max-width:320px;
+
+}
+.link {
+    color: #0000ff;
+    text-decoration: underline;
 }

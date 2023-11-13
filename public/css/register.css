@@ -1,0 +1,27 @@
+.button__secondary {
+    font-size: 16px;
+}
+.form__perfil {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.perfil__usuario {
+    width: 100%;
+    padding: 10px;
+    
+}   
+.form__interes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form__interes label {
+    padding-left: 10px;
+}

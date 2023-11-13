@@ -1,6 +1,6 @@
 header {
     background-color: #EAC926;
-    padding-bottom: 10px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -17,19 +17,35 @@ header {
 }
 
 .search-bar {
-    background-color: #FFFFFF;
-    display: block;
-    border-radius: 5px;
-    color: #666;
-    padding: 2px;
     width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #ebebee;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    position: relative;
 }
 
 .search-bar input {
     background-color: transparent;
     border: none;
+    outline: none;
     margin-left: 5px;
     width: 100%;
+   
+}
+
+.lupa {
+    border: 0;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header__div__compra {
@@ -47,6 +63,11 @@ header {
     color: #03264C;
 }
 
+#loguin {
+    padding: 10px 0;
+    margin: 0;
+}
+
 .burguer-menu a {
     display: block;
     margin: auto;
@@ -56,15 +77,14 @@ header {
     border-radius: 5px;
     color: #FFFFFF;
     width: 25px;
+    cursor: pointer;
 }
-
 /*mobile*/
 @media (max-width:360px) {
     .header__section__nav {
         display: none;
     }
 }
-
 /*tablet y desktop*/
 @media (min-width:361px) {
     .burguer-menu {
@@ -96,13 +116,14 @@ header {
     }
 
     .header__section__nav ul {
-        /*flex-direction: row;*/
         display: flex;
         justify-content: space-around;
     }
 
     .loguin {
        width: 45%;
+       justify-content: space-between;
        display: flex;
     }
+
 }
