@@ -3,7 +3,6 @@
     list-style: none;
 }
 
-
 body {
     font-family: 'Roboto';
     background-color:#ebebeb;
@@ -18,17 +17,19 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
 .box__end a {
     text-decoration: none;
 }
+
 .box__card {
     width: 90%;
     margin: 10px auto;
     padding: 20px;
-    background-color:#ebebeb;
+    background-color:#e4e1e1;
     max-width:320px;
-
 }
+
 .link {
     color: #0000ff;
     text-decoration: underline;

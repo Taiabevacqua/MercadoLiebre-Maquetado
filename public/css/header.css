@@ -35,7 +35,6 @@ header {
     outline: none;
     margin-left: 5px;
     width: 100%;
-   
 }
 
 .lupa {
@@ -79,12 +78,14 @@ header {
     width: 25px;
     cursor: pointer;
 }
+
 /*mobile*/
 @media (max-width:360px) {
     .header__section__nav {
         display: none;
     }
 }
+
 /*tablet y desktop*/
 @media (min-width:361px) {
     .burguer-menu {
